@@ -1,0 +1,45 @@
+# Dependencias
+node_modules/
+**/node_modules/
+
+# Variaveis de ambiente e senhas
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Arquivos compilados
+dist/
+build/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporarios
+*.tmp
+*.bak
+
+# Banco de dados e backups
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.dump
+*.backup
+backups/
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
